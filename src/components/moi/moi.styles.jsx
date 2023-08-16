@@ -27,7 +27,7 @@ export const MoiContainer = styled(motion.section)`
       border-radius: 1rem;
       box-shadow: 0px 0px 10px lightgray;
       max-width: 100%;
-      transition: all 0.1s;
+      transition: all 0s;
       &:hover {
         transform: translateY(-1rem);
         box-shadow: 0px 5px 10px gray;

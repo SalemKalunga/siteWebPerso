@@ -29,10 +29,13 @@ export default function NavbarComponent() {
               <Link to={"moi"}>Moi</Link>
             </li>
             <li>
-              <Link to={"portfolio"}>Portoflio</Link>
+              <Link to={"competences"}>Compétences</Link>
             </li>
             <li>
-              <Link to={"competences"}>Compétences</Link>
+              <Link to={"outils"}>Outils</Link>
+            </li>
+            <li>
+              <Link to={"portfolio"}>Portoflio</Link>
             </li>
             <li>
               <Link to={"contact"}>Contact</Link>

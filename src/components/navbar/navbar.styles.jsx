@@ -135,3 +135,11 @@ export const MobileMenu = styled(motion.section)`
     }
   }
 `;
+
+export const Heading = styled.h1`
+  font-size: 2.5rem;
+  &::first-letter {
+    color: ${COLORS.purple};
+  }
+  padding: 1rem 0;
+`;

@@ -16,9 +16,9 @@ export default function Header() {
               // Same substring at the start will only be typed once, initially
               "Bonjour, moi c'est KONI",
               1000,
-              "Je suis Développeur Web",
+              "Je suis un Concepteur de Système Logiciel",
               1000,
-              "Concepteur d'Application web, et site internet",
+              "Et un Développeur Web FULL STACK.",
               1000,
               "J'habite en RDC...",
               1000,

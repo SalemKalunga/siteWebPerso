@@ -8,6 +8,7 @@ import Portfolio from "../portfolio/portfolio.component";
 import Competences from "../competences/competences.component";
 import Contact from "../contact/contact.component";
 import { AnimatePresence } from "framer-motion";
+import Outils from "../outils/outils.component";
 
 export default function RouterCompt() {
   const location = useLocation();
@@ -21,6 +22,7 @@ export default function RouterCompt() {
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="competences" element={<Competences />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="outils" element={<Outils />} />
           </Route>
         </Routes>
       </MAIN_CONTAINER>
