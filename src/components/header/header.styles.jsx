@@ -4,7 +4,7 @@ import { Flex, MediaQuery } from "../navbar/navbar.styles";
 
 export const HeaderContainer = styled(motion.section)`
   position: relative;
-  min-height: 50vh;
+  min-height: 40vh;
   ${MediaQuery("tablette")} {
     min-height: 50vh;
   }
@@ -19,7 +19,7 @@ export const HeaderContainer = styled(motion.section)`
     position: relative;
     text-align: center;
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       ${MediaQuery("tablette")} {
         font-size: 5rem;
       }

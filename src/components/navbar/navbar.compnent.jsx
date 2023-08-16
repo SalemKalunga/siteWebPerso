@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { MobileMenu, NavBar } from "./navbar.styles";
 import { Link, Outlet } from "react-router-dom";
-import { AiOutlineMenu } from "react-icons/ai";
+import {
+  AiFillApi,
+  AiFillHome,
+  AiFillPhone,
+  AiFillPieChart,
+  AiOutlineMenu,
+  AiOutlineUser,
+} from "react-icons/ai";
 
 export default function NavbarComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,19 +52,34 @@ export default function NavbarComponent() {
           >
             <ul>
               <li>
-                <Link to={"/"}>Accueil</Link>
+                <Link to={"/"}>
+                  <AiFillHome />
+                  &nbsp;Accueil
+                </Link>
               </li>
               <li>
-                <Link to={"moi"}>Moi</Link>
+                <Link to={"moi"}>
+                  <AiOutlineUser />
+                  &nbsp;Moi
+                </Link>
               </li>
               <li>
-                <Link to={"portfolio"}>Portoflio</Link>
+                <Link to={"portfolio"}>
+                  <AiFillApi />
+                  &nbsp;Portoflio
+                </Link>
               </li>
               <li>
-                <Link to={"competences"}>Compétences</Link>
+                <Link to={"competences"}>
+                  <AiFillPieChart />
+                  &nbsp;Compétences
+                </Link>
               </li>
               <li>
-                <Link to={"contact"}>Contact</Link>
+                <Link to={"contact"}>
+                  <AiFillPhone />
+                  &nbsp;Contact
+                </Link>
               </li>
             </ul>
           </MobileMenu>

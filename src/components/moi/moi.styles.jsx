@@ -25,11 +25,12 @@ export const MoiContainer = styled(motion.section)`
     img {
       width: 25rem;
       border-radius: 1rem;
-      box-shadow: 0px 0px 30px lightgray;
+      box-shadow: 0px 0px 10px lightgray;
       max-width: 100%;
-      transition: all 0.2s;
+      transition: all 0.1s;
       &:hover {
-        transform: scale(1.2);
+        transform: translateY(-1rem);
+        box-shadow: 0px 5px 10px gray;
       }
       ${MediaQuery("tablette")} {
         width: 40rem;
@@ -40,23 +41,25 @@ export const MoiContainer = styled(motion.section)`
     }
     &:nth-child(2) {
       font-family: "Josefin Sans", sans-serif;
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
     line-height: 2.5rem;
     a {
       color: ${COLORS.purple};
       text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
     .buttons {
-      padding: 1rem;
+      padding: 0.5rem 1rem;
       display: inline-block;
-      background-color: ${COLORS.purple};
       margin: 1rem;
-      color: ${COLORS.white};
+      color: ${COLORS.blue};
       text-decoration: none;
       box-shadow: 0px 0px 5px gray;
-      border: 1px solid ${COLORS.purple};
       margin-left: 0;
+      border-radius: 0.5rem;
     }
   }
 `;

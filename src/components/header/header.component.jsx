@@ -22,7 +22,7 @@ export default function Header() {
               1000,
               "J'habite en RDC...",
               1000,
-              "Contactez-moi 📱📞",
+              "Contactez-moi 📱",
               1000,
             ]}
             speed={200}

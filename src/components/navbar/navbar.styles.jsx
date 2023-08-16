@@ -117,6 +117,7 @@ export const MobileMenu = styled(motion.section)`
   box-shadow: 0px 0px 3px lightgray;
   ul {
     ${Flex("column", "center", "center", "1rem")};
+    list-style:none;
     li {
       width: 100%;
       a {
@@ -126,7 +127,7 @@ export const MobileMenu = styled(motion.section)`
         color:${COLORS.purple};
     };
         &:hover {
-          background-color: ${COLORS.purple};
+          background-color: ${COLORS.white};
           color: #fff;
           text-decoration: none;
         }

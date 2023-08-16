@@ -1,13 +1,18 @@
 import React from "react";
-import { MAIN_CONTAINER } from "../navbar/navbar.styles";
 import Header from "../header/header.component";
 import Moi from "../moi/moi.component";
+import Portfolio from "../portfolio/portfolio.component";
+import Competences from "../competences/competences.component";
+import Contact from "../contact/contact.component";
 
 export default function Home() {
   return (
-    <MAIN_CONTAINER>
+    <>
       <Header />
       <Moi />
-    </MAIN_CONTAINER>
+      <Portfolio />
+      <Competences />
+      <Contact />
+    </>
   );
 }
