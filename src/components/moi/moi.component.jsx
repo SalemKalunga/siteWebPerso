@@ -2,7 +2,6 @@ import React from "react";
 import photo from "../../assets/images/img1.jpeg";
 import { MoiContainer } from "./moi.styles";
 import { Link } from "react-router-dom";
-import cv from "../../assets/cv.pdf";
 export default function Moi() {
   return (
     <>
