@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Heading } from "../navbar/navbar.styles";
 import { motion } from "framer-motion";
 import im1 from "../../assets/images/p7.png";
@@ -9,7 +9,7 @@ import im5 from "../../assets/images/p8.png";
 import im6 from "../../assets/images/p10.png";
 import im7 from "../../assets/images/p2.png";
 import im8 from "../../assets/images/code_2.jpeg";
-import { ProjectsContainer, SingleProject, Tag } from "./portfolio.styles";
+import { ProjectsContainer, SingleProject } from "./portfolio.styles";
 import { Link } from "react-router-dom";
 export default function Portfolio() {
   const INITIAL = [
@@ -140,6 +140,8 @@ export default function Portfolio() {
       </p>
       <br />
       <ProjectsContainer>{showProjects(INITIAL)}</ProjectsContainer>
+      <br />
+      <br />
     </motion.div>
   );
 }

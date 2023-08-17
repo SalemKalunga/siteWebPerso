@@ -1,12 +1,7 @@
 import React from "react";
-import { MoiContainer } from "../moi/moi.styles";
-import { FaNodeJs, FaReact, FaSearch, FaSearchengin } from "react-icons/fa";
+import { FaSearchengin } from "react-icons/fa";
 import { motion } from "framer-motion";
-import {
-  BiLogoJavascript,
-  BiLogoMongodb,
-  BiLogoTypescript,
-} from "react-icons/bi";
+
 import { Heading } from "../navbar/navbar.styles";
 import { CompetencesStyle } from "./competences.styles";
 export default function Competences() {
